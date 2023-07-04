@@ -1,0 +1,35 @@
+@keyframes myMove {
+    from{bottom: -300px;}
+    to{bottom: 0px;}
+}
+
+@keyframes myMove2 {
+    from {left: 300px;}
+    to {left: 0px;}
+}
+
+
+#example2 {
+    border-radius: 50px 20px;
+  }
+
+#ani1{
+    animation-timing-function: linear;
+}
+
+#ani2{
+    animation-timing-function: ease;
+}
+
+#ani3{
+    animation-timing-function: ease-in;
+}
+
+#ani4{
+    animation-timing-function: ease-in-out;
+}
+
+#ani5{
+    animation-timing-function: ease-out;
+}
+
